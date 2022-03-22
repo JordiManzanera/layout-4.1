@@ -29,8 +29,14 @@
 }
 
 #logo{
-  padding-left: 5em;
-  padding-right: 5em;
-  font-size: 50px;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 30px;
   color: #f9c126;
+}
+
+#logo i{
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  font-size: 50px;
 }
