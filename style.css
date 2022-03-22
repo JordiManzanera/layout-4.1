@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+
+  border: thin solid red;
+}
+
+#header{
+  text-align: right;
+  padding-left: 5em;
+  padding-right: 5em;
+  background-color: #303030;
+  color: #c5bf81;
+}
+
+#header i{
+  color: #9e9e9c;
+}
+
+#header-logo{
+  background-color: #454545;
+}
+#header-logo:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+#logo-outside{
+  float: left;
+}
+
+#logo{
+  padding-left: 5em;
+  padding-right: 5em;
+  font-size: 50px;
+  color: #f9c126;
+}
