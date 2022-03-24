@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 
-  border: thin solid red;
 }
 
 #header{
@@ -39,4 +38,57 @@
   padding-left: 2.3em;
   padding-right: 2.3em;
   font-size: 50px;
+}
+
+#menu{
+  position: absolute;
+  padding: 1em;
+  background-color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: 11.5em;
+  top: 9.4em;
+}
+
+#menu > ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#menu > ul > li {
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-right: thin solid grey;
+}
+
+#img img{
+  max-width: 100%;
+  width: 100%;
+}
+
+#banner-text{
+  text-align: center;
+  color: white;
+  font: 150% sans-serif;
+  font-size: 50px;
+}
+
+#banner-text2{
+  color: #fefeff;
+  font-size: 35px;
+}
+
+#button-search {
+  background-color: #f4be1d;
+  padding: 15px 32px;
+}
+
+.mmm{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
