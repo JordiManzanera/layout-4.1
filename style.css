@@ -48,6 +48,7 @@
   padding-right: 2em;
   margin-left: 11.5em;
   top: 9.4em;
+  z-index: 1;
 }
 
 #menu > ul {
@@ -64,31 +65,35 @@
   border-right: thin solid grey;
 }
 
-#img img{
-  max-width: 100%;
-  width: 100%;
-}
-
-#banner-text{
-  text-align: center;
-  color: white;
-  font: 150% sans-serif;
-  font-size: 50px;
-}
-
-#banner-text2{
-  color: #fefeff;
-  font-size: 35px;
-}
-
-#button-search {
-  background-color: #f4be1d;
-  padding: 15px 32px;
+#banner {
+  position: relative;
 }
 
 .mmm{
 position: absolute;
+text-align: center;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+background-color: rgba(0, 0, 0, 5);
+color: white;
+
+
+font-size: 27px;
+}
+
+.mmm:after {
+  content: "";
+  display: inline-table;
+  clear: both;
+}
+
+img{
+  max-width: 100%;
+  width: 100%;
+}
+
+#quote {
+  background-color: #f4be1d;
+  padding: 13px 22px;
 }
