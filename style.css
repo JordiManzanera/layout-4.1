@@ -97,3 +97,72 @@ img{
   background-color: #f4be1d;
   padding: 13px 22px;
 }
+
+#banner-2{
+  text-align: center;
+  position: relative;
+}
+
+#banner-2 img{
+  width: 100%;
+  max-width: 100%;
+  filter: brightness(40%);
+}
+
+#banner-text-2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: white;
+}
+
+#localization{
+text-align: center;
+}
+
+#localization img{
+  display: block;
+  margin: auto;
+  width: 10%;
+  max-width: 10%;
+}
+
+#description{
+  color: #949494;
+}
+
+#visit{
+  color: #6babc7;
+}
+
+#number{
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0.5em;
+}
+
+#number i{
+  color: #fec708;
+  font-size: 30px;
+}
+
+#options{
+  display: grid;
+  padding: 1.5em;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #eff0f4;
+}
+
+#options i{
+  display: inline-block;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.des{
+  color: #949494;
+}
