@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-
+  margin: 0;
 }
 
 #header{
@@ -47,7 +47,7 @@
   padding-left: 2em;
   padding-right: 2em;
   margin-left: 11.5em;
-  top: 9.4em;
+  top: 6.5em;
   z-index: 1;
 }
 
@@ -91,9 +91,132 @@ font-size: 27px;
 img{
   max-width: 100%;
   width: 100%;
-}
+}  bottom: 4em;
+
 
 #quote {
   background-color: #f4be1d;
   padding: 13px 22px;
+}
+
+#banner-2{
+  text-align: center;
+  position: relative;
+}
+
+#banner-2 img{
+  width: 100%;
+  max-width: 100%;
+  filter: brightness(40%);
+}
+
+#banner-text-2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: white;
+}
+
+#localization{
+text-align: center;
+}
+
+#localization img{
+  display: block;
+  margin: auto;
+  width: 10%;
+  max-width: 10%;
+}
+
+#oregon{
+  padding: 1em;
+}
+
+#description{
+  color: #949494;
+}
+
+#visit{
+  color: #6babc7;
+  padding: 1em;
+}
+
+#number{
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0.5em;
+}
+
+#number i{
+  color: #fec708;
+  font-size: 30px;
+}
+
+#options{
+  display: grid;
+  padding: 2em;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #eaeaea;
+}
+
+#options i{
+  display: inline-block;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.des{
+  color: #949494;
+  font-size: 13px;
+}
+
+#centrate{
+  position: relative;
+  text-align: center;
+  right: 2em;
+}
+
+#content{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1em 8em;
+
+}
+
+#workers-title i{
+  color: #ffc81c;
+  font-size: 50px;
+}
+
+#workers-des{
+  color: #949494;
+}
+
+#canada-title i{
+  color: #8f6c66;
+  font-size: 50px;
+}
+
+#canada-des{
+  color: #949494;
+}
+
+#security-title i{
+  color: #434343;
+  font-size: 50px;
+}
+
+#security-des{
+  color: #949494;
+}
+
+.read{
+  color: #3a7a95;
 }
