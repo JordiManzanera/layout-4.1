@@ -47,7 +47,7 @@
   padding-left: 2em;
   padding-right: 2em;
   margin-left: 11.5em;
-  top: 6.5em;
+  top: 6em;
   z-index: 1;
 }
 
@@ -91,7 +91,8 @@ font-size: 27px;
 img{
   max-width: 100%;
   width: 100%;
-}  bottom: 4em;
+  bottom: 4em;
+}
 
 
 #quote {
@@ -130,23 +131,17 @@ text-align: center;
   max-width: 10%;
 }
 
-<<<<<<< HEAD
 #oregon{
   padding: 1em;
 }
 
-=======
->>>>>>> 068b97a7d36e2a084849898251e699572aa6777c
 #description{
   color: #949494;
 }
 
 #visit{
   color: #6babc7;
-<<<<<<< HEAD
   padding: 1em;
-=======
->>>>>>> 068b97a7d36e2a084849898251e699572aa6777c
 }
 
 #number{
@@ -162,24 +157,15 @@ text-align: center;
 
 #options{
   display: grid;
-<<<<<<< HEAD
   padding: 2em;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #eaeaea;
-=======
-  padding: 1.5em;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: #eff0f4;
->>>>>>> 068b97a7d36e2a084849898251e699572aa6777c
 }
 
 #options i{
   display: inline-block;
-<<<<<<< HEAD
   font-size: 20px;
   padding: 1em;
-=======
->>>>>>> 068b97a7d36e2a084849898251e699572aa6777c
 }
 
 .title{
@@ -188,7 +174,6 @@ text-align: center;
 
 .des{
   color: #949494;
-<<<<<<< HEAD
   font-size: 13px;
 }
 
@@ -235,6 +220,4 @@ text-align: center;
 
 .read{
   color: #3a7a95;
-=======
->>>>>>> 068b97a7d36e2a084849898251e699572aa6777c
 }
