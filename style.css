@@ -47,7 +47,7 @@
   padding-left: 2em;
   padding-right: 2em;
   margin-left: 11.5em;
-  top: 6em;
+  top: 6.4em;
   z-index: 1;
 }
 
@@ -220,4 +220,25 @@ text-align: center;
 
 .read{
   color: #3a7a95;
+}
+
+#coments{
+  background-color: #eaeaea;
+}
+
+#title{
+  font-weight: bold;
+  display: inline;
+  vertical-align: middle;
+}
+
+#icons{
+  float: right;
+  display: inline;
+  vertical-align: middle;
+  border: thin solid grey;
+}
+
+.people{
+
 }
