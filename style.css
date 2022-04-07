@@ -298,9 +298,90 @@ text-align: center;
 }
 
 #cliente1{
+  position: relative;
+  top: 2em;
+}
 
+#cliente1 i{
+  color: #f9c825;
 }
 
 #cliente2{
+  position: relative;
+  top: 1em;
+}
+
+#cliente2 i{
+  color: #f9c825;
+}
+
+#tituleo{
+  position: relative;
+  text-align: center;
+  padding: 1em;
+}
+
+#sub-tituleo{
+  text-align: center;
+  padding: 1em;
+}
+
+.scroll-bajado img{
+  height: 400px;
+  width: 700px;
+  margin: 1em;
+}
+
+div.scroll-bajado {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scroll-bajado a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scroll-bajado a:hover {
+  background-color: #777;
+}
+
+#botoncito{
+  text-align: center;
+  padding: 1em;
+}
+
+#texto{
+  background-color: #white;
+  border: thin solid grey;
+  color: grey;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#footer {
+  background-color: #32373a;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+#footer-areas{
+  font-weight: bold;
+  padding: 2em;
+}
+
+#footer-id{
+  padding: 2em;
+}
+
+#footer-schedule{
 
 }
