@@ -378,10 +378,31 @@ div.scroll-bajado a:hover {
   padding: 2em;
 }
 
+#OR{
+  color: grey;
+}
+
 #footer-id{
-  padding: 2em;
+  padding: 3em;
 }
 
 #footer-schedule{
+  padding: 2em;
+}
 
+#buton{
+  padding: 1em;
+  border: thin solid yellow;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#dorados{
+  position: relative;
+ background-color: #f6c61c;
+ text-align: center;
+ padding: 0.5em;
 }
